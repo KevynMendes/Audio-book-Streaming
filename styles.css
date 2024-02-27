@@ -1,0 +1,207 @@
+body {
+    background-image:linear-gradient(#000000,#121212,#4b4a4a,#b3b3b3,#5f5d5d,#b3b3b3,#5f5f5f,#b3b3b3,#5f5f5f,#b3b3b3,#5f5f5f,#b3b3b3,#5f5f5f,#000000);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    color: #b3b3b3;
+}
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+button {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+#play-pause {
+    font-size: 6rem;
+    position: relative;
+    left: 3rem;
+    bottom: 5rem;
+    color: #efdecc;
+
+
+}
+
+#anterior, #proximo {
+    font-size: 5rem;
+    position: relative;
+    left: 3rem;
+    bottom: 5rem;
+    color: #efdecc;
+  }
+  
+  #button-conteiner {
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    
+  } 
+
+#track-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 700;
+    font-family:'Segoe UI';
+    background-color: #efdecc;
+    border-radius: 15px;
+    height: 4.5rem;
+    width: 19rem;
+  }
+
+  
+#volumeControl {
+  width: 50px; /* largura para o controle de volume */
+  height: 7px; /* altura para o controle de volume */
+  background-color: #efdecc; /* Cor de fundo do controle de volume */
+  border: 1px solid black; /* largura da borda e estilo */
+  border-radius: 20px; 
+  outline: none; 
+  -webkit-appearance: none; 
+  appearance: none; 
+  position: relative; 
+  right:135px; 
+  top: 80px; 
+  writing-mode: bt-lr; 
+  transform: rotate(270deg); 
+}
+
+#volumeControl::-webkit-slider-thumb {
+  width: 15px; /* largura do controle de volume */
+  height: 15px; /* altura do controle de volume */
+  background-color: #20b2aa; /* Cor do controle de volume */
+  border: 1px solid black;
+  border-radius: 50%; 
+  cursor: pointer; 
+  -webkit-appearance: none; 
+  appearance: none;
+  position: relative; 
+  z-index: 2; 
+}
+
+#vol{
+  position: relative;
+  border: none;
+  top: 130px;
+  right: 175px;
+  background-color: transparent;
+  color: #efdecc;
+  font-size: 25px;
+}
+
+#currentTime{
+
+  background-color: transparent;
+  border-radius: 5px; border: none;
+  color: #000;
+  position:relative; 
+  left:5px;
+  bottom: 13px;
+  font-size: 15px;
+  font-family: 'Segoe UI';
+}
+
+#remainingTime{
+  background-color: transparent;
+  border-radius: 5px; border: none;
+  color: #000;
+  position:relative; 
+  left:347px;
+  bottom: 49px;
+  font-size: 15px;
+  font-family: 'Segoe UI';
+}
+
+#progressSlider {
+  height: 3px;
+  width: 285px;
+  position:relative; 
+  left:45px;
+  bottom: 90px;
+  padding: 3px;
+  border: solid #fff;
+  background-color: #efdecc;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+}
+
+#progressSlider::-webkit-slider-thumb {
+  /*a cor do controle deslizante */
+  background-color: #20b2aa;
+  /* tamanho do controle deslizante */
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+#notas{
+  position: absolute;
+  top: 5.5rem;
+  right: 25px;
+  width: 180px;
+  height: 300px;
+  padding: 20px;
+  background-color: #efdecc;
+  border-radius: 15px;
+  color: #000000;
+}
+
+#titleNotas{
+  font-size: 28px;
+  position: absolute;
+  right: 6rem;
+  top: 1.8rem;
+  font-family: 'Segoe UI';
+}
+
+#selectCapitulo {
+  position: absolute;
+  top: 6rem;
+  left: 30px;
+  border-radius: 15px;
+  border: none;
+  width: 250px;
+  height: 50px;
+  font-size: 16px; font-weight: 600; font-family:'Segoe UI';
+  background-color: #efdecc;
+  
+}
+
+#txtH1{
+  font-size: 28px;
+  position:absolute;
+  top: 2rem;
+  left: 33px;
+  font-family: 'Segoe UI';
+
+}
+
+#voltar15{
+  position: relative;
+  right: 12rem;
+  bottom: 2rem;
+}
+
+#avancar15{
+  position: relative;
+  right: 6rem;
+  bottom: 2rem;
+}
