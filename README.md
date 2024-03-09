@@ -9,20 +9,19 @@ Controle de volume;<br>
 Opção de Mutar/Desmutar o áudio;<br>
 <br>
 
-<img src="https://i.imgur.com/I3liake.jpg" alt="Player" width="500" height="500">
-
+![Audio Book Page](https://github.com/KevynMendes/Audio-book-Streaming/assets/156138743/216d7485-2e4b-409a-8e00-46d23d31c548)
 
 
 ##
 <p>Menu para acessar a faixa desejada</p>
 
-<img src="https://i.imgur.com/twT0PPI.jpg" alt="Player" width="500" height="500">
-
+![Audio Book Capitulos](https://github.com/KevynMendes/Audio-book-Streaming/assets/156138743/2cb0eed9-d157-4982-9861-334d79a96459)
 
 ##
 <p>Funcionalidade disponivel para deixar suas notas sobre o livro</p>
 
-<img src="https://i.imgur.com/cT80QQC.jpg" alt="notas" width="500" height="500">
+
+![audio book notas](https://github.com/KevynMendes/Audio-book-Streaming/assets/156138743/401fa7f6-0fc7-422a-b565-2cad36f8961f)
 
 
 Projeto Feito com HTML,CSS e JavaScript.
